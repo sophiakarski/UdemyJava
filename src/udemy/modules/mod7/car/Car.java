@@ -1,4 +1,4 @@
-package udemy.modules.mod7;
+package udemy.modules.mod7.car;
 
 public class Car {
 

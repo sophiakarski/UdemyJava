@@ -1,4 +1,4 @@
-package udemy.modules.mod7;
+package udemy.modules.mod7.car;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class Main {
         targa.describeCar();
 
 //        :( UGLY ^ duplication of code, and painful to set data one attribute at a time on each object created.
-//        There are better ways to set data on an object!
+//        There are better ways to set data on an object -> occurring when create object!
     }
 }
