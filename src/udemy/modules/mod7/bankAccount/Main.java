@@ -3,7 +3,7 @@ package udemy.modules.mod7.bankAccount;
 public class Main {
     public static void main(String[] args) {
 
-//        BankAccount firstAccount = new BankAccount("12345", 13.56, "Noah Jonesn", "noah.jones@gmail.com", "+44 (0) 7123 456789");
+//        BankAccount firstAccount = new BankAccount("12345", 13.56, "Noah Jones", "noah.jones@gmail.com", "+44 (0) 7123 456789");
         BankAccount firstAccount = new BankAccount();
 
         System.out.println(firstAccount.getAccountNumber());
