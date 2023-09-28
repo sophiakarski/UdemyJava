@@ -3,7 +3,8 @@ package udemy.modules.mod7.bankAccount;
 public class Main {
     public static void main(String[] args) {
 
-        BankAccount firstAccount = new BankAccount("12345", 13.56, "Noah Jonesn", "noah.jones@gmail.com", "+44 (0) 7123 456789");
+//        BankAccount firstAccount = new BankAccount("12345", 13.56, "Noah Jonesn", "noah.jones@gmail.com", "+44 (0) 7123 456789");
+        BankAccount firstAccount = new BankAccount();
 
         System.out.println(firstAccount.getAccountNumber());
         System.out.println(firstAccount.getAccountBalance());
@@ -19,6 +20,11 @@ public class Main {
         firstAccount.withdrawFunds(50);
 
         System.out.println("Account holder name: " + firstAccount.getCustomerName() + ".");
+
+        BankAccount sophiaAccount = new BankAccount("Sophia",
+                "sophia@gmail.com", "+44 (0)7123 456789");
+        System.out.println("Account no: " + sophiaAccount.getAccountNumber() +
+                "; name " + sophiaAccount.getCustomerName() + ".");
     }
 
 }
