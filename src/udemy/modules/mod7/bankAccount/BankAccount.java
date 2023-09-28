@@ -13,6 +13,14 @@ public class BankAccount {
     private String customerPhone;
 //    private String customerPhone = "+44 (0) 7123 456789";
 
+    public BankAccount(String number, double accountBalance, String customerName, String email, String phone) {
+        System.out.println("Account constructor with parameters called.");
+        this.accountNumber = number;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        customerEmail = email;
+        customerPhone = phone;
+    }
 
     public void depositFunds(double depositAmount) {
         accountBalance += depositAmount;
