@@ -2,10 +2,10 @@ package udemy.modules.mod7.studentRecord;
 
 public class Student {
 
-    public String id;
-    public String name;
-    public String dateOfBirth;
-    public String classList;
+    private String id;
+    private String name;
+    private String dateOfBirth;
+    private String classList;
 
     public Student(String id, String name, String dateOfBirth, String classList) {
         this.id = id;

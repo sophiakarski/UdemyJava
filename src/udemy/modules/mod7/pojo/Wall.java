@@ -1,8 +1,16 @@
 package udemy.modules.mod7.pojo;
 
 public class Wall {
-    public double width;
-    public double height;
+
+//    Declare these instance variables as private for ENCAPSULATION:
+//    Objects internal representation hidden from outside world
+//    Therefore can control and validate data access - ensure it stays in acceptable bounds.
+//    e.g. in getter/setter methods - controls (conditional checks)
+
+//    Maintainability / Flexibility - separation of concerns, does not affect public interface (refactor if needed)
+//    Security!
+    private double width;
+    private double height;
 
     public Wall() {
     }
@@ -31,4 +39,5 @@ public class Wall {
     public double getArea() {
         return width * height;
     }
+
 }
