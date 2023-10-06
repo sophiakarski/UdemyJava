@@ -1,4 +1,4 @@
-package udemy.modules.mod8.composition.bedroom;
+package udemy.modules.mod8.house.bedroom;
 
 public class Ceiling {
     private int height;

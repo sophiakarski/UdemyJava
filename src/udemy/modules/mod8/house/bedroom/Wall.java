@@ -1,4 +1,4 @@
-package udemy.modules.mod8.composition.bedroom;
+package udemy.modules.mod8.house.bedroom;
 
 public class Wall {
     private String direction;

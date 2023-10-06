@@ -1,7 +1,7 @@
-package udemy.modules.mod8.composition;
+package udemy.modules.mod8.house;
 
-import udemy.modules.mod8.composition.bedroom.*;
-import udemy.modules.mod8.composition.kitchen.SmartKitchen;
+import udemy.modules.mod8.house.bedroom.*;
+import udemy.modules.mod8.house.kitchen.SmartKitchen;
 
 public class Main {
 
