@@ -13,13 +13,30 @@ public class BankAccount {
     private String customerPhone;
 //    private String customerPhone = "+44 (0) 7123 456789";
 
-    public BankAccount(String number, double accountBalance, String customerName, String email, String phone) {
-        System.out.println("Account constructor with parameters called.");
-        this.accountNumber = number;
+    public BankAccount() {
+        // 'this' must be first executable statement
+        this("56789", 2.50, "Default name", "Default email", "Default phone");
+        System.out.println("Empty constructor called (1st constructor)");
+    }
+
+    public BankAccount(String accountNumber, double accountBalance, String customerName, String email, String phone) {
+        System.out.println("Account constructor with parameters called (2nd constructor)");
+        // always better to assign values directly to field, rather than calling setter in constructor (DUE TO INHERITANCE in JAVA)
+//        setAccountNumber(number); -> validation in setter
+        this.accountNumber = accountNumber;
         this.accountBalance = accountBalance;
         this.customerName = customerName;
         customerEmail = email;
         customerPhone = phone;
+    }
+
+//    Generate > Constructor:
+    public BankAccount(String customerName, String customerEmail, String customerPhone) {
+        // initialise 'accountNumber' and 'accountBalance)
+        this("99999", 100.55, customerName, customerEmail, customerPhone);
+//        this.customerName = customerName;
+//        this.customerEmail = customerEmail;
+//        this.customerPhone = customerPhone;
     }
 
     public void depositFunds(double depositAmount) {
