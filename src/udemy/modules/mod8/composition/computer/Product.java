@@ -1,4 +1,4 @@
-package udemy.modules.mod8.computer;
+package udemy.modules.mod8.composition.computer;
 
 public class Product {
     private String model;
