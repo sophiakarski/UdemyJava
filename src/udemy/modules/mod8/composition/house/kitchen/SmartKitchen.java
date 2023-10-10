@@ -1,4 +1,4 @@
-package udemy.modules.mod8.house.kitchen;
+package udemy.modules.mod8.composition.house.kitchen;
 // 103 - Composition Challenge
 // composition, encapsulation, abstraction
 // encapsulates individual appliances w/ respective classes b('SmartKitchen class manages their interactions)

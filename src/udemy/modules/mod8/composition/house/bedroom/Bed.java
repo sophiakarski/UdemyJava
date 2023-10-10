@@ -1,4 +1,4 @@
-package udemy.modules.mod8.house.bedroom;
+package udemy.modules.mod8.composition.house.bedroom;
 
 public class Bed {
     private String style;
