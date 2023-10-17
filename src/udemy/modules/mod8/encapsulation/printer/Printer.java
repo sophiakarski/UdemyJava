@@ -18,11 +18,11 @@ public class Printer {
     public int addToner(int tonerAmount) {
 
 //        if return = -1, method does nothing to tonerLevel
-        int tempAmount = tonerAmount + tonerLevel;
+        int tempAmount = this.tonerLevel + tonerAmount;
         if (tempAmount > 100 || tempAmount < 0) {
             return -1;
         }
-        tonerLevel += tonerAmount;
+        this.tonerLevel += tonerAmount;
         return tonerLevel;
     }
 
@@ -38,4 +38,5 @@ public class Printer {
     public int getPagesPrinted() {
         return pagesPrinted;
     }
+
 }

@@ -13,5 +13,8 @@ public class Main {
         System.out.printf("Current job pages: %d, printer total: %d %n", pagesPrinted, printer.getPagesPrinted());
 
 //        :) hide functionality from other classes - not accessing any fields directly, proper methods doing calculations and VALIDATION away from the user.
+
+        System.out.println(printer.addToner(50));
+        System.out.println("Initial page count = " + printer.getPagesPrinted());
     }
 }
